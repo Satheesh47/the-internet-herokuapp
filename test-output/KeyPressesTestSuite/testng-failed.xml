@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KeyPressesTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="KeyPressesTests-CH(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.keypressestests.KeyPressesTests">
+        <methods>
+          <include name="pressKeyWithActionsTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.keypressestests.KeyPressesTests -->
+    </classes>
+  </test> <!-- KeyPressesTests-CH(failed) -->
+</suite> <!-- Failed suite [KeyPressesTestSuite] -->
